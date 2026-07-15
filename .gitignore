@@ -71,8 +71,13 @@ PAPER_*.md
 # separate data release if redistribution is allowed.
 data/8023ck_channels/**
 !data/8023ck_channels/
+!data/8023ck_channels/**/
 !data/8023ck_channels/channel_manifest.csv
 !data/8023ck_channels/channel_manifest.example.csv
+!data/8023ck_channels/**/*.s4p
+!data/8023ck_channels/**/*.xlsx
+!data/8023ck_channels/com_reference/
+!data/8023ck_channels/com_reference/*.m
 !data/README.md
 
 # Reference PDFs are not redistributed in the code repository.
