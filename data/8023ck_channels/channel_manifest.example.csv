@@ -1,0 +1,7 @@
+case_id,group,role,file,baud,loss_db,include
+C2M_10dB,C2M,main,C2M/c2m_10db.s4p,26.5625e9,10,1
+C2M_14dB,C2M,main,C2M/c2m_14db.s4p,26.5625e9,14,1
+C2M_16dB,C2M,main,C2M/c2m_16db.s4p,26.5625e9,16,1
+C2C_20dB,C2C,main,C2C/c2c_20db.s4p,26.5625e9,20,1
+BP_24dB,Backplane,stress,Backplane/bp_24db.s4p,26.5625e9,24,1
+Cable_2m_XTALK,Cable,stress,Cable/cable_2m.s4p,26.5625e9,28,1

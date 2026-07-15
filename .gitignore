@@ -1,0 +1,86 @@
+# Local/editor state
+.claude/
+.uv-cache/
+_tmp*/
+*_tmp*/
+_smoke*/
+archive/
+
+# MATLAB generated files and logs
+*.asv
+*.autosave
+*.m~
+*.mat
+*.log
+*_stdout.txt
+*_stderr.txt
+matlab_*_stdout.txt
+matlab_*_stderr.txt
+*_log.txt
+*launcher.log
+
+# Generated paper/result artifacts
+paper_final*/
+paper_smoke*/
+paper_audit*/
+paper_debug*/
+paper_quick*/
+paper_channel_physics*/
+paper_profiled*/
+paper_probe*/
+paper_sdd21*/
+paper_eye_fix_check/
+paper_ieee_access_figure_pack*/
+pam4_hmm_figures_output/
+pam4_hmm_figures_paper_ready/
+results/
+reviewer_revision/
+_runs_archive/
+
+# Writing drafts and exported papers
+final_write_paper/
+claude_write/
+codex_write/
+claude_write*.md
+paper_*.md
+PAPER_*.md
+*.pdf
+*.docx
+*.tex
+
+# Figures and binary exports
+*.png
+*.jpg
+*.jpeg
+*.fig
+*.svg
+*.eps
+*.tif
+*.tiff
+
+# Archives / large bundles
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Raw third-party / large channel data.
+# Keep only small metadata manifests in Git. Put raw S-parameter packages
+# beside the repo after downloading, or track them with Git LFS in a
+# separate data release if redistribution is allowed.
+data/8023ck_channels/**
+!data/8023ck_channels/
+!data/8023ck_channels/channel_manifest.csv
+!data/8023ck_channels/channel_manifest.example.csv
+!data/README.md
+
+# Reference PDFs are not redistributed in the code repository.
+docs/references/
+
+# Scratch/debug helpers
+debug_*.m
+tmp_*.m
+extract_*.m
+detailed_data_extraction.m
+merge_*_v72.m

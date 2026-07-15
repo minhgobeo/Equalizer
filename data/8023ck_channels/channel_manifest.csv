@@ -1,0 +1,17 @@
+case_id,group,role,file,baud,loss_db,include
+C2M_10dB,C2M,thru,c2m_ball_to_ball_10_12_14_16/10dB/100GEL_C2M_10dB_Thru.s4p,26.5625e9,10,1
+C2M_12dB,C2M,thru,c2m_ball_to_ball_10_12_14_16/12dB/100GEL_C2M_12dB_Thru.s4p,26.5625e9,12,1
+C2M_14dB,C2M,thru,c2m_ball_to_ball_10_12_14_16/14dB/100GEL_C2M_14dB_Thru.s4p,26.5625e9,14,1
+C2M_16dB,C2M,thru,c2m_ball_to_ball_10_12_14_16/16dB/100GEL_C2M_16dB_Thru.s4p,26.5625e9,16,1
+C2C_10dB,C2C,thru,c2c_impairments_10_16_18_20/Impaired_C2C_10dB_P1_to_P2/Impaired_C2C_10dB_P1_to_P2_THRU_ExtPEC.s4p,26.5625e9,10,1
+C2C_16dB,C2C,thru,c2c_impairments_10_16_18_20/Impaired_C2C_16dB_P1_to_P2/Impaired_C2C_16dB_P1_to_P2_THRU_ExtPEC.s4p,26.5625e9,16,1
+C2C_18dB,C2C,thru,c2c_impairments_10_16_18_20/Impaired_C2C_18dB_P1_to_P2/Impaired_C2C_18dB_P1_to_P2_THRU_ExtPEC.s4p,26.5625e9,18,1
+C2C_20dB,C2C,thru,c2c_impairments_10_16_18_20/Impaired_C2C_20dB_P1_to_P2/Impaired_C2C_20dB_P1_to_P2_thru_ExtPEC.s4p,26.5625e9,20,1
+BP_12dB,Backplane,thru,backplane_orthogonal_12_24_28_32/DPO_IL_12dB/DPO_4in_Meg7_THRU.s4p,26.5625e9,12,1
+BP_24dB,Backplane,thru,backplane_orthogonal_12_24_28_32/DPO_IL_24dB/DPO_10in_Meg7_THRU.s4p,26.5625e9,24,1
+BP_28dB,Backplane,thru,backplane_orthogonal_12_24_28_32/DPO_IL_28dB/DPO_12in_Meg7_THRU.s4p,26.5625e9,28,1
+BP_32dB,Backplane,thru,backplane_orthogonal_12_24_28_32/DPO_IL_32dB/DPO_14in_Meg7_THRU.s4p,26.5625e9,32,1
+Cable_Tx7_1p5m,Cable,thru,cable_osfp_1p5m_2m/Tx7/Thru_Tx7_TP1toTP4_OSFP100G_1p5m_28AWG.s4p,26.5625e9,NaN,1
+Cable_Tx7_2m,Cable,thru,cable_osfp_1p5m_2m/Tx7/Thru_Tx7_TP1toTP4_OSFP100G_2m_28AWG.s4p,26.5625e9,NaN,1
+Cable_Tx8_1p5m,Cable,thru,cable_osfp_1p5m_2m/Tx8/Thru_Tx8_TP1toTP4_OSFP100G_1p5m_28AWG.s4p,26.5625e9,NaN,1
+Cable_Tx8_2m,Cable,thru,cable_osfp_1p5m_2m/Tx8/Thru_Tx8_TP1toTP4_OSFP100G_2m_28AWG.s4p,26.5625e9,NaN,1
